@@ -1,0 +1,232 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+    src: url("MusticaPro-SemiBold.otf");
+    font-family:Mustica;
+    
+}
+
+@font-face {
+    src: url("LOVES.ttf");
+    font-family:Loves;
+    
+}
+
+@font-face {
+    src: url("Dustismo_Roman.ttf");
+    font-family:Dustismo;
+    
+}
+
+h4 {
+    font-family:Mustica;
+}
+
+p, q {
+    font-family:Dustismo;
+    font-size: 15px;
+    
+}
+
+h3{
+    font-family:Dustismo;
+    font-size: 20px;
+    font-weight:bold;
+    color: #735565;
+    text-shadow: 0 0 1px black;
+}
+
+h2 {
+    
+    font-family:Loves;
+    text-shadow: 1px 0 3px black;
+    font-weight:bold;
+    font-size: 28px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+img {
+    
+}
+
+
+
+.Header {
+    background-image:url("images/Pasig.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 800px;
+    width:auto;
+    height:150px;
+    margin-bottom:0px;
+    padding: 80px 105px;
+    color: white;
+    
+}
+
+#Hometown-Title {
+    background-color: #D99AB7;
+    width: 200px;
+    border-radius:10px;
+    padding: 3px 5px;
+    margin: 0 auto;
+    text-shadow: 0 0 2px black;
+    font-family: Mustica;
+    font-size:35px;
+}
+
+#Hometown-Desc {
+    background: #8E7CA6;
+    width: 400px;
+    padding: 4px 5px;
+    margin: 15px auto 0px;
+    border-radius: 10px;
+    text-shadow: 0 0 2px black;
+    font-size: 20px;
+    font-family: Mustica;
+}
+
+.Activities {
+    background: #F2AFA0;
+    margin:0;
+    padding: 5px 5px 50px 5px;
+    
+}
+
+.activity-card {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#house, #theater, #church {
+    color: #594545;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+
+.visit {
+    width: 200px;
+}
+
+#house:hover {
+-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#theater:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+    
+}
+
+#church:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.info-section {
+    width: 400px;
+    text-align: center;
+    background: #735565;
+    margin: 50px auto;
+    padding: 8px 30px 30px;
+    color: white;
+    border-bottom: 20px solid #D99AB7;
+    border-radius: 20px;
+
+}
+.info {
+    display: flex;
+    
+}
+
+#profile {
+    width:150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius:50%;
+    
+}
+
+#tourguide {
+    background: #735565;
+    color:white;
+}
+
+#personal {
+    display:flex;
+    text-align:left;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#guide-desc {
+    width: 200px;
+}
+
+#msg {
+    width:340px;
+    height: 100px;
+    margin: 20px;
+}
+
+.contact {
+    background:linear-gradient(#F2AFA0, #D99AB7) ;
+    padding: 10px 0 30px;
+}
+
+.data {
+ 
+}
+
+#name, #email {
+    height: 25px
+}
+
+#name, #email, #msg {
+    
+    border-radius: 3px;
+    border: none;
+    
+}
+
+#submit {
+    background: white;
+    font-family:Mustica;
+    width: 90px;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-bottom: 4px solid #735565;
+    border-left: 4px solid #735565;
+    border-radius: 8px;
+}
+
+#submit:active {
+    border-bottom: none;
+    border-left:none;
+}
+
+
